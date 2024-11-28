@@ -1,0 +1,93 @@
+*{
+    margin: 2px;
+    padding: 0%;
+    font-family:'Raleway', 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}   
+body{
+    background-color: lightblue;
+    
+}
+.Items_nav{
+    display: inline;
+    padding: 10px;
+}
+h1{
+    background-image: url(./Imagenes/estrella\ de\ la\ vida\ Logo\ PNG\ Vector\ \(AI\)\ Free\ Download.jfif);
+    background-size:auto;
+    background-position: 50%;
+    background-attachment: fixed;
+    padding:50px 20px;
+    height: 450px;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px white;
+}
+h4{ 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    color: crimson;
+    text-shadow:  4px 4px black;
+}
+.Tarjeta{
+    max-width: 400px;
+    margin: 40px auto;
+    border: 5px solid darkblue;
+    box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.img_Tarjeta{
+    width: 100%;
+}
+
+ol{
+    margin: 10px;
+    white-space:pre-line;
+
+}
+.Padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+nav{
+    background-color: blue;
+    padding: 30px;
+    font-weight: bolder;
+    border-radius: 50px;
+    color:red;
+}
+h5{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    color: crimson;
+    text-shadow:  4px 4px black;
+}
+.textoResaltado{
+    font-weight: bolder;
+    
+}
+.textoResaltado2{
+    font-weight: bolder;
+    color: red;
+}
+.Advertencia{
+    font-weight: bolder;
+    color: blue;
+}
+h6{
+    text-align: center;
+    font-size: medium;
+    height: 60;
+    color: darkblue
+}
